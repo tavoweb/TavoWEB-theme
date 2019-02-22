@@ -1,7 +1,8 @@
 {
   "name": "TavoWEB Theme",
-  "about_url": "https://meta.discourse.org/",
-  "license_url": "https://github.com//LICENSE.txt",
+  "about_url": "https://meta.discourse.org/t/tavoweb-theme-for-discourse/109830",
+  "license_url": "https://github.com/tavoweb/TavoWEB-theme/blob/master/LICENSE.txt",
+  "Author": "https://tavoweb.lt",
   "color_schemes": {
     "TavoWEB default": {
       "primary": "212121",
