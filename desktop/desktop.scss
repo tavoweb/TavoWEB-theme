@@ -47,6 +47,29 @@ html {
     background-size: cover;
     border-radius: 15px 0 0 0;
 }
+.open .grippie {
+    cursor: row-resize;
+    padding: 4px 0;
+    background: #39509d;
+    border-radius: 15px 0 0 0;
+}
+#reply-control {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    height: 0;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1475px;
+    width: 100%;
+    z-index: 400;
+    transition: height 250ms ease, background 250ms ease, transform 250ms ease, max-width 250ms ease;
+    background-color: #fafafa;
+    box-shadow: 0 28px 130px rgba(0, 0, 0, 0.34);
+}
 // make header icons semi-translucent
 .d-header-icons {
   .d-icon {
