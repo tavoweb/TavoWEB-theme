@@ -1,4 +1,6 @@
 ## TavoWEB Theme
 
-More info at: 
+More info at: soon
+
+Theme inspired by Material Theme ;)
 
