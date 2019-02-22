@@ -275,9 +275,7 @@ html {
     }
   }
 }
-
 //quick messages
-
 .docked-editor .button-bar .btn {
     padding: 8px 6px;
     background-color: #fafafa;
@@ -301,6 +299,10 @@ html {
     margin-bottom: 0;
     cursor: pointer;
     box-shadow: 0 -2px 4px -1px rgba(0,0,0,0.25);
+}
+.docked-composer .grippie {
+    background-color: #e9e9e9;
+    border-radius: 15px 0 0 0;
 }
 // menu panel
 .menu-panel {
