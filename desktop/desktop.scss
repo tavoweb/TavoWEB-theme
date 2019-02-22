@@ -29,6 +29,19 @@ html {
     border-radius: 15px 0 0 0;
     margin-left: 3px;
 }
+.fps-result {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 15px 0 0 0;
+}
+.badge-card.medium {
+    flex: 0 0 auto;
+    width: 32%;
+    margin-right: 1.63%;
+    border-radius: 15px 0 0 0;
+}
 // make header icons semi-translucent
 .d-header-icons {
   .d-icon {
@@ -324,3 +337,4 @@ html {
   padding: 0.5em;
   width: 300px;  
 }
+
