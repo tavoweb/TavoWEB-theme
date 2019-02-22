@@ -119,7 +119,7 @@ html {
   margin: 0;
   width: 50px;
   height: 50px;
-  border-radius: 15px;
+  border-radius: 15px 15px 15px 0px;
   position: fixed;
   top: 80px;
   right: 120px;
@@ -164,15 +164,15 @@ html {
 }
 
 .widget-button.btn.create {
-  border-radius: 50%;
+  border-radius: 15px 15px 15px 0px;
   position: absolute;
   top: 50px;
-  left: -18px;
-  background-color: $tertiary;
-  @include buttonShadow;
+  left: -2px;
+  background-color: #1565c0;
+  box-shadow: 0 0 4px rgba(0,0,0,0.14), 0 4px 8px rgba(0,0,0,0.28);
   overflow: hidden;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   @include buttonTransition;
   .d-icon {
     color: $secondary;
