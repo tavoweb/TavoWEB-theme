@@ -25,13 +25,6 @@ html {
     border-radius: 15px 0 0 0;
     margin: 0 0 10px;
 }
-.topic-body {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 0 0 0 rgba(0,0,0,0.12);
-    background-color: #fff;
-    margin-top: 10px;
-    border-radius: 15px 0 0 0;
-    padding: 12px 20px 0 20px;
-}
 // make header icons semi-translucent
 .d-header-icons {
   .d-icon {
@@ -84,7 +77,7 @@ html {
   @include boxShadow;
   background-color: lighten($secondary, 10%);
   margin-top: 10px;
-  border-radius: 2px;
+  border-radius: 15px 0 0 0;
   padding: 12px 20px 0 20px;
 }
 
