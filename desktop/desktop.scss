@@ -68,6 +68,9 @@
     background-color: #fafafa;
     box-shadow: 0 28px 130px rgba(0, 0, 0, 0.34);
 }
+#reply-control.draft, #reply-control.saving {
+    border-radius: 15px 0 0 0;
+}
 // make header icons semi-translucent
 .d-header-icons {
   .d-icon {
