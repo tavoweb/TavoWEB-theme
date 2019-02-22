@@ -10,21 +10,26 @@
 
 @mixin buttonTransition {
   transition: right 0.5s, bottom 0.5s, border-radius 0.5s, text-indent 0.2s,
-    visibility 1s, width 0.2s ease, height 0.5s ease 0.4s, color 0.5s,
-    background-color 2s, transform 0.5s;
+  visibility 1s, width 0.2s ease, height 0.5s ease 0.4s, color 0.5s,
+  background-color 2s, transform 0.5s;
 }
 html {
-    color: #212121;
-    font-size: 15px;
-    line-height: 1.4;
-    background-color: #fafafa;
-    overflow-y: scroll;
-    direction: ltr;
+  color: #212121;
+  font-size: 15px;
+  line-height: 1.4;
+  background-color: #fafafa;
+  overflow-y: scroll;
+  direction: ltr;
 }
 .topic-list {
-    border-radius: 15px 0 0 0;
-    margin: 0 0 10px;
+  border-radius: 15px 0 0 0;
+  margin: 0 0 10px;
 }
+.category-list.with-topics {
+    border-radius: 15px 0 0 0;
+    margin-left: 3px;
+}
+
 // make header icons semi-translucent
 .d-header-icons {
   .d-icon {
@@ -277,32 +282,32 @@ html {
 }
 //quick messages
 .docked-editor .button-bar .btn {
-    padding: 8px 6px;
-    background-color: #fafafa;
+  padding: 8px 6px;
+  background-color: #fafafa;
 }
 .docked-composer {
-    border-radius: 15px 0 0 0;
-    position: fixed;
-    bottom: 0;
-    width: 300px;
-    background-color: #fafafa;
-    box-shadow: 0 8px 14px rgba(0,0,0,0.15);
-    border: 1px solid #e9e9e9;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
+  border-radius: 15px 0 0 0;
+  position: fixed;
+  bottom: 0;
+  width: 300px;
+  background-color: #fafafa;
+  box-shadow: 0 8px 14px rgba(0,0,0,0.15);
+  border: 1px solid #e9e9e9;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
 }
 .docked-composer.minimized .docked-composer-header {
-    border-radius: 15px 0 0 0;
-    height: 40px;
-    line-height: 30px;
-    margin-bottom: 0;
-    cursor: pointer;
-    box-shadow: 0 -2px 4px -1px rgba(0,0,0,0.25);
+  border-radius: 15px 0 0 0;
+  height: 40px;
+  line-height: 30px;
+  margin-bottom: 0;
+  cursor: pointer;
+  box-shadow: 0 -2px 4px -1px rgba(0,0,0,0.25);
 }
 .docked-composer .grippie {
-    background-color: #e9e9e9;
-    border-radius: 15px 0 0 0;
+  background-color: #e9e9e9;
+  border-radius: 15px 0 0 0;
 }
 // menu panel
 .menu-panel {
@@ -316,7 +321,7 @@ html {
 }
 // header links
 .headerLink a {
-    padding: 6px 10px;
-    color: #ffffff;
-    font-size: 1.1487em;
+  padding: 6px 10px;
+  color: #ffffff;
+  font-size: 1.1487em;
 }
