@@ -41,7 +41,12 @@ html {
     );
   }
 }
-
+// online
+.discovery-list-container-top-outlet.online_users_widget.ember-view {
+    margin-bottom: 15px;
+    border-radius: 15px 0 0 0;
+    background: #00ff09;
+}
 //add shadow behind the list of topics on right in Category and Latest View
 //add shadow behind list of categories on left in Category and Latest View
 //add shadow behind topics in Latest view
@@ -317,9 +322,4 @@ html {
   z-index: 1000;
   padding: 0.5em;
   width: 300px;  
-}
-.discovery-list-container-top-outlet.online_users_widget.ember-view {
-    margin-bottom: 15px;
-    border-radius: 15px 0 0 0;
-    background: #00ff303d;
 }
