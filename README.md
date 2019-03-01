@@ -12,5 +12,5 @@ Discourse quick messages Plugin https://meta.discourse.org/t/quick-messages-plug
 Who’s Online Plugin (discourse-whos-online) https://meta.discourse.org/t/whos-online-plugin-discourse-whos-online/52345 <br />
 //custom style added
 
-Easy Footer https://meta.discourse.org/t/easy-responsive-footer/95818 
+Easy Footer https://meta.discourse.org/t/easy-responsive-footer/95818 <br />
 //custom style added
