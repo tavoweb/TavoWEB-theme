@@ -328,6 +328,12 @@
     }
   }
 }
+// category box
+.category-boxes .category-box-inner, .category-boxes-with-topics .category-box-inner {
+  border-radius: 0 15px 15px 0;
+}
+
+//----------------------------------------------------------compatble--------------------------------
 //quick messages
 .docked-editor .button-bar .btn {
   padding: 8px 6px;
