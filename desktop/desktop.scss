@@ -27,9 +27,6 @@
     border-radius: 15px 0 0 0;
     margin-left: 3px;
 }
-.fps-result {
-    border-radius: 15px 0 0 0;
-}
 .badge-card.medium {
     flex: 0 0 auto;
     width: 32%;
@@ -267,7 +264,7 @@
   background-color: lighten($secondary, 10%);
   margin-top: 10px;
   padding: 20px;
-  border-radius: 2px;
+  border-radius: 15px 0 0 0;
 }
 
 @keyframes background-fade-highlight {
