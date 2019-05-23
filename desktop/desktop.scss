@@ -371,18 +371,3 @@ aside.onebox {
     border-radius: 15px 0 0 0;
 }
 
-// smal fixes 
-
-body.navigation-categories .list-controls {
-    background: #fff0;
-    padding: 12px 6px 0 0;
-}
-body.navigation-categories .category-description {
-    margin-top: -11px;
-    padding: 2px 4px;
-    font-size: 1em;
-    color: $primary;
-    position: absolute;
-    margin-left: 5px;
-    background-color: rgba(255, 255, 255, 0);
-}
