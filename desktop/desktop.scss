@@ -373,11 +373,11 @@ aside.onebox {
 
 // smal fixes 
 
-html:not(.mobile-view) body.navigation-categories .list-controls {
+body.navigation-categories .list-controls {
     background: #fff0;
     padding: 12px 6px 0 0;
 }
-html:not(.mobile-view) body.navigation-categories .category-description {
+body.navigation-categories .category-description {
     margin-top: -11px;
     padding: 2px 4px;
     font-size: 1em;
