@@ -14,3 +14,6 @@ Who’s Online Plugin (discourse-whos-online) https://meta.discourse.org/t/whos-
 
 Easy Footer https://meta.discourse.org/t/easy-responsive-footer/95818 <br />
 //custom style added
+
+House Ad Templates https://meta.discourse.org/t/house-ad-templates/122004 <br />
+//aded advertise style to theme
