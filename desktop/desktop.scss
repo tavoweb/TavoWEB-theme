@@ -129,7 +129,7 @@
   @include boxShadow;
   background-color: lighten($secondary, 10%);
   margin-top: 10px;
-  border-radius: 15px 0 0 0;
+  border-radius: 15px 15px 15px 0;
   padding: 12px 20px 0 20px;
 }
 
@@ -264,7 +264,20 @@
   background-color: lighten($secondary, 10%);
   margin-top: 10px;
   padding: 20px;
-  border-radius: 15px 0 0 0;
+  border-radius: 15px 15px 15px 0;
+}
+.search-menu .menu-panel, .search-menu-container .menu-panel {
+    border: 0;
+    box-shadow: var(--shadow-dropdown);
+    padding: 1rem;
+    border-radius: 15px 15px 15px 0;
+}
+.menu-panel.user-menu.revamped {
+    width: unset;
+    border-radius: 15px 15px 15px 0;
+}
+.header-sidebar-toggle button {
+  border-radius: 15px 15px 15px 0;
 }
 
 @keyframes background-fade-highlight {
